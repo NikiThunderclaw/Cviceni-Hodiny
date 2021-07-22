@@ -86,3 +86,25 @@
 	border-radius: 50%;
 	background-color: currentColor;
 }
+
+@keyframes blikani {
+	50% { opacity: 0;}
+}
+
+.digitalni__dvojtecka {
+	animation: blikani 1s linear infinite;
+	animation-timing-function: steps(1, end);
+}
+
+@keyframes rucicka {
+	0% { transform: rotate(0deg)
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.analogove__vterinova {
+	animation: rucicka 1s linear infinite;
+
+}
