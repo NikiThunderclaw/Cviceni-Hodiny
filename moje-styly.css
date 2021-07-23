@@ -40,6 +40,7 @@
 	/* animation: rucicka 6s linear infinite; */
 	/* animation: rucicka 0.7s linear infinite */
 	animation: toceni 60s linear infinite;
+	animation-timing-function: steps(60, end);
 
 }
 
